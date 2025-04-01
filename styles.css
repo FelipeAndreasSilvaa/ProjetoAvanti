@@ -1,0 +1,419 @@
+/* =====================
+  Header
+   ===================== */
+.header{
+    background-color: purple;
+    position: relative;
+    z-index: 10;
+    
+}
+   
+.backgroudncolordesconto {
+    background-color: #5EC0BE;
+    width: 80px;
+    text-align: center;
+}
+
+/* Navbar - barra de navegação */
+.navbar-search {
+    flex: 1;
+    margin: 0 1rem;
+    position: relative;
+    z-index: 20;
+}
+
+.navbar-search input {
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.navbar-cart {
+    margin-left: 1rem;
+    position: relative;
+    z-index: 20;
+}
+
+/* Título genérico */
+.title-lorem {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Seção de imagem */
+.image-container-1 {
+    text-align: center;
+    background-color: #C2C2C2; /* Adicionando o fundo cinza na imagem */
+    padding: 20px; /* Opcional, para adicionar algum espaço ao redor da imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-container-1 {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+.image-container-2 {
+    text-align: center;
+    padding: 20px; /* Opcional, para adicionar algum espaço ao redor da imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-container-2 {
+    background-color: #DEDEDE;
+    padding: 4rem 0;
+}
+
+.image-container-3 {
+    text-align: center;
+    background-color: #C2C2C2; /* Adicionando o fundo cinza na imagem */
+    padding: 20px; /* Opcional, para adicionar algum espaço ao redor da imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container-3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-container-3 {
+    padding: 4rem 0;
+}
+/* =====================
+   Seção Hero
+   ===================== */
+
+.hero {
+    background-image: url('./assets/cadeira.jpeg');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: #333;
+}
+
+.text-container {
+    text-align: left;
+    padding: 2rem;
+}
+
+.text-container h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.text-container p {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.text-container h2 {
+    font-size: 4rem;
+    color: #007bff;
+    margin-top: 0;
+}
+
+.abaixodohero {
+    text-decoration: line-through;
+    font-size: 0.8em;
+  }
+
+  .risco{
+    text-decoration: line-through;
+  font-size: 0.8em;
+  }
+  
+/* =====================
+   Lancamentos
+   ===================== */
+
+   .lancamentos{
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+/* =====================
+   Seção Localização
+   ===================== */
+
+.localizacao {
+    background-color: #007bff;
+    font-size: 10px;
+}
+
+/* =====================
+   Ícones e Texto
+   ===================== */
+
+.icon-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-text-container i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #007bff;
+}
+
+/* =====================
+   Estilos de Card
+   ===================== */
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 10px;
+}
+
+.badge {
+    top: 10px;
+    left: 10px;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.discount {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.installments {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.btn-buy {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+}
+
+/* =====================
+   Navegação de Carrossel
+   ===================== */
+
+.arrow-btn {
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.dots {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.dots span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #dee2e6;
+    margin: 0 5px;
+}
+
+.dots span.active {
+    background-color: #007bff;
+}
+
+/* =====================
+   Lançamentos
+   ===================== */
+
+.view-more {
+    text-align: right;
+}
+
+/* =====================
+   Estilo para a tag de desconto
+   ===================== */
+
+.backgroudncolordesconto {
+    background-color: #5EC0BE;
+    width: 80px;
+    text-align: center;
+}
+
+/* =====================
+   Seção de Newsletter
+   ===================== */
+
+.newsletter-section {
+    background-color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.newsletter-form {
+    background-color: #e9ecef;
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.newsletter-form input,
+.newsletter-form label,
+.newsletter-form button {
+    padding: 0.75rem;
+    margin: 0.5rem;
+    border-radius: 4px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    min-width: 150px;
+}
+
+.newsletter-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.newsletter-form label {
+    white-space: nowrap;
+}
+
+/* =====================
+   Rodapé
+   ===================== */
+
+.footer-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: #343a40;
+    text-decoration: none;
+}
+
+.footer-social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-social-icons li {
+    margin-right: 1rem;
+}
+
+.footer-social-icons a {
+    color: #007bff;
+    font-size: 1.5rem;
+}
+
+.footer-payment-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footer-payment-icons li {
+    margin: 0 0.5rem;
+}
+
+.footer-payment-icons img {
+    max-height: 2rem;
+}
+
+/* =====================
+   Banners e sobreposição de texto
+   ===================== */
+
+.section-container-banner {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: #005CFF;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
